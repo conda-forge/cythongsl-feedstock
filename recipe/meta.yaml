@@ -1,4 +1,4 @@
-{% set version = "0.2.1" %}
+{% set version = "0.2.2" %}
 
 package:
     name: cythongsl
@@ -7,7 +7,7 @@ package:
 source:
     fn: cythongsl-{{ version }}.tar.gz
     url: https://pypi.io/packages/source/C/CythonGSL/CythonGSL-{{ version }}.tar.gz
-    sha256: 177537590442be3ff0e21fb121cc3775a5dbf96611eeade317eee48d49282bd7
+    sha256: 9310ec565f4691fd20f49193744e76dae5b36b5f6460318009f8890cab0f58c6
 
 build:
     number: 0
