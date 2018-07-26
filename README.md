@@ -14,14 +14,16 @@ Summary: CythonGSL provides a Cython interface for the GNU Scientific Library (G
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/cythongsl-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/cythongsl-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/cythongsl-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/cythongsl-feedstock)
-Windows: ![](https://cdn.rawgit.com/conda-forge/conda-smithy/90845bba35bec53edac7a16638aa4d77217a3713/conda_smithy/static/disabled.svg)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/cythongsl-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/cythongsl-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/cythongsl-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/cythongsl-feedstock)
+![Windows disabled](https://img.shields.io/badge/Windows-disabled-lightgrey.svg)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/cythongsl/badges/version.svg)](https://anaconda.org/conda-forge/cythongsl)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/cythongsl/badges/downloads.svg)](https://anaconda.org/conda-forge/cythongsl)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-cythongsl-green.svg)](https://anaconda.org/conda-forge/cythongsl) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/cythongsl.svg)](https://anaconda.org/conda-forge/cythongsl) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/cythongsl.svg)](https://anaconda.org/conda-forge/cythongsl) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/cythongsl.svg)](https://anaconda.org/conda-forge/cythongsl) |
 
 Installing cythongsl
 ====================
