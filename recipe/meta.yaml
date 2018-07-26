@@ -9,12 +9,14 @@ source:
   sha256: 9310ec565f4691fd20f49193744e76dae5b36b5f6460318009f8890cab0f58c6
 
 build:
-  number: 0
+  number: 1
   skip: True  # [win]
   script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
   build:
+    - {{ compiler('c') }}
+  host:
     - python
     - pip
     - cython
