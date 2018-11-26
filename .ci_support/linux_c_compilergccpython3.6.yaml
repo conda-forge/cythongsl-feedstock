@@ -7,9 +7,9 @@ channel_sources:
 channel_targets:
 - conda-forge gcc7
 docker_image:
-- conda/c3i-linux-64
+- condaforge/linux-anvil-comp7
 gsl:
-- '2.2'
+- '2.4'
 pin_run_as_build:
   gsl:
     max_pin: x.x

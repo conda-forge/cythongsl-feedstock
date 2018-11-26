@@ -9,7 +9,7 @@ channel_targets:
 docker_image:
 - condaforge/linux-anvil
 gsl:
-- '2.2'
+- '2.4'
 pin_run_as_build:
   gsl:
     max_pin: x.x
