@@ -9,8 +9,7 @@ source:
   sha256: 9310ec565f4691fd20f49193744e76dae5b36b5f6460318009f8890cab0f58c6
 
 build:
-  number: 1008
-  skip: True  # [win]
+  number: 1009
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
@@ -31,7 +30,7 @@ test:
 
 about:
   home: https://github.com/twiecki/CythonGSL
-  license: GPL-3.0
+  license: GPL-3.0-only
   license_file: LICENSE
   summary: CythonGSL provides a Cython interface for the GNU Scientific Library (GSL).
 
