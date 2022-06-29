@@ -31,7 +31,7 @@ test:
 
 about:
   home: https://github.com/twiecki/CythonGSL
-  license: GPL-3.0
+  license: GPL-3.0-only
   license_file: LICENSE
   summary: CythonGSL provides a Cython interface for the GNU Scientific Library (GSL).
 
