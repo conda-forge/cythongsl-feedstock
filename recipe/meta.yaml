@@ -5,11 +5,11 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/C/CythonGSL/CythonGSL-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/C/CythonGSL/CythonGSL-{{ version }}.tar.gz
   sha256: 9310ec565f4691fd20f49193744e76dae5b36b5f6460318009f8890cab0f58c6
 
 build:
-  number: 1012
+  number: 1013
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
