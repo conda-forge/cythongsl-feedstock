@@ -1,0 +1,50 @@
+schema_version: 1
+
+context:
+  version: "0.2.2"
+
+package:
+  name: cythongsl
+  version: ${{ version }}
+
+source:
+  url: https://pypi.org/packages/source/c/cythongsl/CythonGSL-${{ version }}.tar.gz
+  sha256: 9310ec565f4691fd20f49193744e76dae5b36b5f6460318009f8890cab0f58c6
+
+build:
+  number: 1015
+  noarch: python
+  script: ${{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
+
+requirements:
+  build:
+    - ${{ compiler("c") }}
+    - ${{ stdlib("c") }}
+  host:
+    - python ${{ python_min }}.*
+    - cython >=0.16
+    - pip
+  run:
+    - python >=${{ python_min }}
+    - cython >=0.16
+    - gsl
+
+tests:
+  - python:
+      imports:
+        - cython_gsl
+      pip_check: true
+      python_version:
+       - ${{ python_min }}.*
+       - "*"
+
+about:
+  summary: Cython declarations for the Gnu Scientific Library.
+  license: MIT
+  license_file: LICENSE
+  homepage: http://github.com/twiecki/CythonGSL
+
+extra:
+  recipe-maintainers:
+    - twiecki
+    - ocefpaf
