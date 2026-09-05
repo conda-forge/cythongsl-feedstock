@@ -21,6 +21,7 @@ requirements:
     - ${{ stdlib("c") }}
   host:
     - python
+    - setuptools
     - cython >=0.16
     - pip
   run:
